@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/1-Modelo N-grama/">
+    <Project Path="Modelo N-grama tipo Trigrama con aleatoriedad/Modelo N-grama tipo Trigrama con aleatoriedad.csproj" />
+    <Project Path="Modelo N-grama tipo Trigrama/Modelo N-grama tipo Trigrama.csproj" />
+    <Project Path="Modelo N-grama/Modelo N-grama.csproj" />
+    <Project Path="N-grama generando texto/N-grama generando texto.csproj" />
+  </Folder>
+</Solution>
