@@ -5,4 +5,11 @@
     <Project Path="Modelo N-grama/Modelo N-grama.csproj" />
     <Project Path="N-grama generando texto/N-grama generando texto.csproj" />
   </Folder>
+  <Folder Name="/2-LLM (Large Language Model)/">
+    <File Path="../../../Users/Miguel/Downloads/1-Computin Machinary and Intelligence - Alan Turing.pdf" />
+    <File Path="../../../Users/Miguel/Downloads/2-NIPS-2017-attention-is-all-you-need-Paper.pdf" />
+    <File Path="../../../Users/Miguel/Downloads/Red neuronal SimpleAdder.png" />
+    <Project Path="SimpleAdder/SimpleAdder.csproj" Id="76b3dfcf-bbee-4b4a-8034-1dc5584af8cd" />
+  </Folder>
+  <Folder Name="/3-LLM Local/" />
 </Solution>
