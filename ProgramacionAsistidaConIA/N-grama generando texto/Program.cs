@@ -8,7 +8,6 @@ var texts = new[]
     "El gato negro corre por el jardín",
     "El gato negro duerme en la cama",
     "El gato negro despierta en la cama",
-
     "Despierta en el sofá de Juan",
     "Juan corre en el parque",
     "El sofá es azul",
@@ -18,7 +17,6 @@ var texts = new[]
     "La computadora es nueva",
     "La mesa tiene 4 patas",
     "El jardín es verde y tiene plantas",
-
     "El perro grande ladra en la noche",
     "El perro grande juega en el parque",
     "La casa blanca tiene ventanas grandes",
@@ -58,7 +56,7 @@ foreach (var text in texts)
 
 var random = new Random();
 
-//Predecir
+// Predict
 string Predict(string word1, string word2)
 {
     var context = word1.ToLowerInvariant() + " " + word2.ToLowerInvariant();
@@ -69,11 +67,11 @@ string Predict(string word1, string word2)
     }
 
     var weightedList = new List<string>();
-    foreach (var kv in model[context])
+    foreach (var nextWord in model[context])
     {
-        for (int i = 0; i < kv.Value; i++)
+        for (int i = 0; i < nextWord.Value; i++)
         {
-            weightedList.Add(kv.Key);
+            weightedList.Add(nextWord.Key);
         }
 
     }
